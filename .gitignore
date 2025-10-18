@@ -1,20 +1,14 @@
+# Arquivos de dependências
 node_modules/
 
-# Arquivos de log gerados pelo Node.js ou npm
+# Arquivos de log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Arquivos de ambiente
-# Contêm senhas, chaves de API e outras informações sensíveis
 .env
-.env.local
-.env.*.local
 
 # Arquivos gerados pelo sistema operacional
 .DS_Store
 Thumbs.db
-
-# Pasta de build (se você usar TypeScript ou um bundler como Webpack)
-dist/
-build/
